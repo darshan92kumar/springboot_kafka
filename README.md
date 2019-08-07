@@ -15,7 +15,8 @@ kafka-server-start.bat .\config\server.properties
 
 Now, by default, the Kafka server starts on localhost:9092.
 
-we need a way to tell our application where to find the Kafka servers and create a topic and publish to it. We can do it using application.yaml
+we need a way to tell our application where to find the Kafka servers and create a topic and publish to it. We can do it using application.yaml.
+
 Now, if we run the application and hit the endpoint
 ```
 localhost:9000/kafka/publish?message=HelloFromKafkaProducer
